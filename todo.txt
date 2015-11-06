@@ -1,0 +1,38 @@
+TODO
+- BookItems CRUD improve
+    * remove bookitem views
+    * add/remove/etc from book view
+- Use message passing in all pages and actions
+- Links everywhere + Data Integrity
+- Implement Reset/Change password
+- Implement request/query
+- Implement contact/about
+- Clear Fine button
+- Move logic from view to controller
+- Add history related to notification
+- 24 feb:	- verifier actions
+
+DONE
+- Implement Issue/Return/Renew
+- Notification System
+- Logging System
+- Improve Access control
+- Implement User search
+- Separate roll number to batch,department,roll
+
+BUGS
+- When first creating a book, the bookitems isn't populated, ie Zero bookitems
+- Notification is to be shown only in User's homepage
+  be it student/admin
+  It is also being shown in login page :v
+- Logging history about notification
+- After book creation failed, edit page was shown.
+- Book creation failed, count() function failed
+- 24 feb:	- error on book search with type
+			- user fine isn't displayed
+			- addition and edit of book & book-items is not allowed
+
+FIXED
+- User that isn't admin can't edit their own profile
+- The rollnumber field of user isn't autofilled during edit
+- Can't create users "roll name field is required"
